@@ -1,0 +1,45 @@
+{
+  "name": "js-node-errors",
+  "version": "1.0.0",
+  "description": "Export JS Errors for unity",
+  "homepage": "https://github.com/pkg-wizard/js-node-errors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkg-wizard/js-node-errors.git"
+  },
+  "scripts": {
+    "test": "jest -c ./jest.config.js",
+    "build": "tsc",
+    "clean": "rm -r ./dist"
+  },
+  "bugs": {
+    "url": "https://github.com/pkg-wizard/js-node-errors/issues"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.2",
+    "prettier": "^3.5.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "http-status": "^2.1.0"
+  },
+  "keywords": [
+    "errors",
+    "http-status",
+    "express",
+    "js",
+    "node"
+  ],
+  "author": "pkg-wizard",
+  "license": "MIT"
+}
